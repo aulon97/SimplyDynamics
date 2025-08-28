@@ -4,7 +4,9 @@ page 80100 "User Jnl. Posting History List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "User Journal Posting History";
-
+    DeleteAllowed = false;
+    ModifyAllowed = false;
+    InsertAllowed = false;
     layout
     {
         area(Content)
