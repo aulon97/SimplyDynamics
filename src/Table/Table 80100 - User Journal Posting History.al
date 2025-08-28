@@ -9,7 +9,7 @@ table 80100 "User Journal Posting History"
             DataClassification = ToBeClassified;
             AutoIncrement = true;
         }
-        field(2; "User Id"; Code[20])
+        field(2; "User Id"; Code[50])
         {
             DataClassification = ToBeClassified;
         }
@@ -24,6 +24,7 @@ table 80100 "User Journal Posting History"
         field(5; Amount; Decimal)
         {
             DataClassification = ToBeClassified;
+            AutoFormatType = 1;
         }
         field(6; "Created Date/TIme"; DateTime)
         {

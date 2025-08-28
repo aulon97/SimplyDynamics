@@ -14,13 +14,13 @@ page 80100 "User Jnl. Posting History List"
             repeater(GroupName)
             {
 
-                field("Journal Batch Name"; Rec."Journal Batch Name")
-                {
-                    ToolTip = 'Specifies the value of the Journal Batch Name field.', Comment = '%';
-                }
                 field("Journal Template Name"; Rec."Journal Template Name")
                 {
                     ToolTip = 'Specifies the value of the Journal Template Name field.', Comment = '%';
+                }
+                field("Journal Batch Name"; Rec."Journal Batch Name")
+                {
+                    ToolTip = 'Specifies the value of the Journal Batch Name field.', Comment = '%';
                 }
                 field(Amount; Rec.Amount)
                 {
