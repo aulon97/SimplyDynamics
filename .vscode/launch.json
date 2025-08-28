@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ITS Sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "Testing",
+            "startupObjectType": "Page",
+            "startupObjectId": 59722,
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 597,
+            "numberOfSqlStatements": 10,
+            "tenant": "8d658957-3f61-406e-8e41-ca21f8537373",
+            "schemaUpdateMode": "ForceSync"
+        } 
+    ]
+}
